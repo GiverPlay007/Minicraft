@@ -72,6 +72,7 @@ public class LevelGen {
 	}
 
 	public static byte[][] createAndValidateTopMap(int w, int h) {
+		
 		do {
 			byte[][] result = createTopMap(w, h);
 
